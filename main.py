@@ -1,6 +1,11 @@
+from operator import add
+
+
 def greet (name):
     print(f"Hello, {name}!")
 
-add (a+)
+def add (a, b):
+    return a + b
 
 greet ("World")
+print(f"5 + 3 = {add(5, 3)}")
